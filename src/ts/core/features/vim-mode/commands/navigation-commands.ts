@@ -16,7 +16,7 @@ export const NavigationCommands = [
     nvmap('ctrl+e', 'Scroll Down', () => VimRoamPanel.selected().scrollAndReselectBlockToStayVisible(50)),
     nimap('alt+z', 'Expand Last Reference Breadcrumb', expandLastBreadcrumb),
     nmap('shift+z', 'Collapse the view for the page in references (or query) section', closePageReferenceView),
-    nmap('1', 'Open parent page', () => openParentPage()),
+    // nmap('1', 'Open parent page', () => openParentPage()),
     nmap('shift+1', 'Open parent page in sidebar', () => openParentPage(true)),
     nmap('2', 'Open mentions', () => openMentions()),
     nmap('shift+2', 'Open mentions in sidebar', () => openMentions(true)),
